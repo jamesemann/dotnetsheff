@@ -1,9 +1,9 @@
-﻿using Microsoft.Bot.Builder.Dialogs;
-using Microsoft.Bot.Builder.Luis;
-using Microsoft.Bot.Builder.Luis.Models;
-using System;
+﻿using System;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.Bot.Builder.Dialogs;
+using Microsoft.Bot.Builder.Luis;
+using Microsoft.Bot.Builder.Luis.Models;
 
 namespace LuisDemo.Dialogs
 {
@@ -21,19 +21,17 @@ namespace LuisDemo.Dialogs
             // - Entities recognised by LUIS categorised by type
             // - The original query (the users message)
             var room = (from entity in result.Entities where entity.Type == "room" select entity).FirstOrDefault();
-            var temperature = (from entity in result.Entities where entity.Type == "builtin.temperature" select entity).FirstOrDefault();
+            var temperature =
+                (from entity in result.Entities where entity.Type == "builtin.temperature" select entity).FirstOrDefault
+                ();
 
-            await context.PostAsync( $"Setting the temperature 🔥🌡☀🌶");
+            await context.PostAsync($"Setting the temperature 🔥🌡☀🌶");
 
             if (room != null)
-            {
                 await context.PostAsync($"Room: {room.Entity}");
-            }
 
             if (temperature != null)
-            {
                 await context.PostAsync($"Temperature: {temperature.Entity}");
-            }
 
             context.Wait(MessageReceived);
         }

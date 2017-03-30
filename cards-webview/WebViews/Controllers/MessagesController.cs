@@ -6,15 +6,11 @@ using System.Web.Http;
 using Microsoft.Bot.Connector;
 using Newtonsoft.Json.Linq;
 
-namespace WebViews
+namespace WebViews.Controllers
 {
     [BotAuthentication]
     public class MessagesController : ApiController
     {
-        /// <summary>
-        ///     POST: api/Messages
-        ///     Receive a message from a user and reply to it
-        /// </summary>
         public async Task<HttpResponseMessage> Post([FromBody] Activity activity)
         {
             var connector = new ConnectorClient(new Uri(activity.ServiceUrl));
@@ -33,7 +29,7 @@ namespace WebViews
                         new
                         {
                             type = "web_url",
-                            url = "https://webviewtest2103.azurewebsites.net/?q=" + Guid.NewGuid().ToString(),
+                            url = "https://webviewtest2103.azurewebsites.net/?q=" + Guid.NewGuid(),
                             title = "See on map",
                             webview_height_ratio = "compact",
                             messenger_extensions = true
