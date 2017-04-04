@@ -39,3 +39,44 @@ c:\users\james\documents\visual studio 2017\Projects\QnaDemo\QnaDemo\bin\zh-hans
 c:\users\james\documents\visual studio 2017\Projects\QnaDemo\QnaDemo\obj\Debug\QnaDemo.csprojResolveAssemblyReference.cache
 c:\users\james\documents\visual studio 2017\Projects\QnaDemo\QnaDemo\obj\Debug\Bot Application1.dll
 c:\users\james\documents\visual studio 2017\Projects\QnaDemo\QnaDemo\obj\Debug\Bot Application1.pdb
+C:\caap\dotnetsheff\qna-bot\QnaDemo\bin\Bot Application1.dll.config
+C:\caap\dotnetsheff\qna-bot\QnaDemo\bin\Bot Application1.dll
+C:\caap\dotnetsheff\qna-bot\QnaDemo\bin\Bot Application1.pdb
+C:\caap\dotnetsheff\qna-bot\QnaDemo\bin\Autofac.dll
+C:\caap\dotnetsheff\qna-bot\QnaDemo\bin\Chronic.dll
+C:\caap\dotnetsheff\qna-bot\QnaDemo\bin\Microsoft.Bot.Builder.dll
+C:\caap\dotnetsheff\qna-bot\QnaDemo\bin\Microsoft.Bot.Connector.dll
+C:\caap\dotnetsheff\qna-bot\QnaDemo\bin\Microsoft.IdentityModel.Protocol.Extensions.dll
+C:\caap\dotnetsheff\qna-bot\QnaDemo\bin\Microsoft.Rest.ClientRuntime.dll
+C:\caap\dotnetsheff\qna-bot\QnaDemo\bin\Microsoft.WindowsAzure.Configuration.dll
+C:\caap\dotnetsheff\qna-bot\QnaDemo\bin\Newtonsoft.Json.dll
+C:\caap\dotnetsheff\qna-bot\QnaDemo\bin\QnAMakerDialog.dll
+C:\caap\dotnetsheff\qna-bot\QnaDemo\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\caap\dotnetsheff\qna-bot\QnaDemo\bin\System.Net.Http.Formatting.dll
+C:\caap\dotnetsheff\qna-bot\QnaDemo\bin\System.Web.Http.dll
+C:\caap\dotnetsheff\qna-bot\QnaDemo\bin\System.Web.Http.WebHost.dll
+C:\caap\dotnetsheff\qna-bot\QnaDemo\bin\Autofac.xml
+C:\caap\dotnetsheff\qna-bot\QnaDemo\bin\Microsoft.Bot.Builder.xml
+C:\caap\dotnetsheff\qna-bot\QnaDemo\bin\Microsoft.Bot.Connector.xml
+C:\caap\dotnetsheff\qna-bot\QnaDemo\bin\Microsoft.IdentityModel.Protocol.Extensions.pdb
+C:\caap\dotnetsheff\qna-bot\QnaDemo\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
+C:\caap\dotnetsheff\qna-bot\QnaDemo\bin\Microsoft.WindowsAzure.Configuration.xml
+C:\caap\dotnetsheff\qna-bot\QnaDemo\bin\Newtonsoft.Json.xml
+C:\caap\dotnetsheff\qna-bot\QnaDemo\bin\System.IdentityModel.Tokens.Jwt.pdb
+C:\caap\dotnetsheff\qna-bot\QnaDemo\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\caap\dotnetsheff\qna-bot\QnaDemo\bin\System.Net.Http.Formatting.xml
+C:\caap\dotnetsheff\qna-bot\QnaDemo\bin\System.Web.Http.xml
+C:\caap\dotnetsheff\qna-bot\QnaDemo\bin\System.Web.Http.WebHost.xml
+C:\caap\dotnetsheff\qna-bot\QnaDemo\bin\ar\Microsoft.Bot.Builder.resources.dll
+C:\caap\dotnetsheff\qna-bot\QnaDemo\bin\cs\Microsoft.Bot.Builder.resources.dll
+C:\caap\dotnetsheff\qna-bot\QnaDemo\bin\de-dE\Microsoft.Bot.Builder.resources.dll
+C:\caap\dotnetsheff\qna-bot\QnaDemo\bin\en\Microsoft.Bot.Builder.resources.dll
+C:\caap\dotnetsheff\qna-bot\QnaDemo\bin\es\Microsoft.Bot.Builder.resources.dll
+C:\caap\dotnetsheff\qna-bot\QnaDemo\bin\fa\Microsoft.Bot.Builder.resources.dll
+C:\caap\dotnetsheff\qna-bot\QnaDemo\bin\fr\Microsoft.Bot.Builder.resources.dll
+C:\caap\dotnetsheff\qna-bot\QnaDemo\bin\ja\Microsoft.Bot.Builder.resources.dll
+C:\caap\dotnetsheff\qna-bot\QnaDemo\bin\ru\Microsoft.Bot.Builder.resources.dll
+C:\caap\dotnetsheff\qna-bot\QnaDemo\bin\zh-hans\Microsoft.Bot.Builder.resources.dll
+C:\caap\dotnetsheff\qna-bot\QnaDemo\obj\Debug\QnaDemo.csprojResolveAssemblyReference.cache
+C:\caap\dotnetsheff\qna-bot\QnaDemo\obj\Debug\Bot Application1.dll
+C:\caap\dotnetsheff\qna-bot\QnaDemo\obj\Debug\Bot Application1.pdb

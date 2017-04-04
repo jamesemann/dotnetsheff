@@ -7,8 +7,11 @@ namespace FormFlowBot.Forms
     [Serializable]
     public class ParkingEnquiryForm
     {
+        //[Prompt("Please provide the machine ID, there should be a white label on the parking machine.  If you don't know this, then your street address can help us locate it. ")]
         public string MachineIdOrPostcode { get; set; }
+        //[Prompt("Are you reporting a fault with the machine?")]
         public bool IsFault { get; set; }
+        //[Prompt("Can you please describe your issue so with enough detail that we can resolve it as quickly as possible.")]
         public string Problem { get; set; }
 
         public static IForm<ParkingEnquiryForm> BuildForm()
@@ -32,7 +35,7 @@ namespace FormFlowBot.Forms
 
                     else
                         await context.PostAsync(
-                            $"[Parking information for {state.MachineIdOrPostcode}](http://fastandfluid.com/publicdownloads/AngularJSIn60MinutesIsh_DanWahlin_May2013.pdf");
+                            $"You can see information for your location ({state.MachineIdOrPostcode}) at https://parking.gov/info.pdf");
                 })
                 .Build();
 
