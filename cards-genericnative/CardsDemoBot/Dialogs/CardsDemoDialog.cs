@@ -26,6 +26,11 @@ namespace CardsDemoBot.Dialogs
 
                 switch (activity.Text.ToLower())
                 {
+                    case "carousel":
+                    {
+                        ShowHeroCardCarousel(replyMessage);
+                        break;
+                    }
                     case "static-card":
                     {
                         ShowStaticCard(replyMessage);
@@ -46,11 +51,11 @@ namespace CardsDemoBot.Dialogs
                         ShowReceiptCard(replyMessage);
                         break;
                     }
-                    case "signin-card":
-                    {
-                        ShowSignInCard(replyMessage);
-                        break;
-                    }
+                    //case "signin-card":
+                    //{
+                    //    ShowSignInCard(replyMessage);
+                    //    break;
+                    //}
                     case "airline-checkin-card":
                     {
                         ShowFacebookMessengerAirlineCheckInCard(replyMessage);
@@ -178,6 +183,45 @@ namespace CardsDemoBot.Dialogs
             };
             var plAttachment = plCard.ToAttachment();
             replyMessage.Attachments.Add(plAttachment);
+        }
+
+        private static void ShowHeroCardCarousel(IMessageActivity replyMessage)
+        {
+            var cardImages1 = new List<CardImage>();
+            cardImages1.Add(new CardImage("http://lorempixel.com/600/600/food"));
+
+            var cardImages2 = new List<CardImage>();
+            cardImages2.Add(new CardImage("http://lorempixel.com/600/600/sports"));
+
+
+            var cardButtons = new List<CardAction>();
+            var plButton = new CardAction
+            {
+                Value = "https://en.wikipedia.org/wiki/Pig_Latin",
+                Type = "openUrl",
+                Title = "Wikipedia Page"
+            };
+            cardButtons.Add(plButton);
+            var plCard1 = new HeroCard
+            {
+                Title = "I'm a hero card 1",
+                Subtitle = "Wikipedia Page",
+                Images = cardImages1,
+                Buttons = cardButtons
+            };
+
+            var plCard2 = new HeroCard
+            {
+                Title = "I'm a hero card 2",
+                Subtitle = "Wikipedia Page",
+                Images = cardImages2,
+                Buttons = cardButtons
+            };
+
+
+            replyMessage.AttachmentLayout = "carousel";
+            replyMessage.Attachments.Add(plCard1.ToAttachment());
+            replyMessage.Attachments.Add(plCard2.ToAttachment());
         }
 
         private static void ShowStaticCard(IMessageActivity replyMessage)

@@ -76,3 +76,42 @@ C:\caap\caap\cards\CardsDemoBot\bin\zh-hans\Microsoft.Bot.Builder.resources.dll
 C:\caap\caap\cards\CardsDemoBot\obj\Release\CardsDemoBot.csprojResolveAssemblyReference.cache
 C:\caap\caap\cards\CardsDemoBot\obj\Release\Bot Application1.dll
 C:\caap\caap\cards\CardsDemoBot\obj\Release\Bot Application1.pdb
+C:\caap\dotnetsheff\cards-genericnative\CardsDemoBot\bin\Bot Application1.dll.config
+C:\caap\dotnetsheff\cards-genericnative\CardsDemoBot\bin\Bot Application1.dll
+C:\caap\dotnetsheff\cards-genericnative\CardsDemoBot\bin\Bot Application1.pdb
+C:\caap\dotnetsheff\cards-genericnative\CardsDemoBot\bin\Autofac.dll
+C:\caap\dotnetsheff\cards-genericnative\CardsDemoBot\bin\Chronic.dll
+C:\caap\dotnetsheff\cards-genericnative\CardsDemoBot\bin\Microsoft.Bot.Builder.dll
+C:\caap\dotnetsheff\cards-genericnative\CardsDemoBot\bin\Microsoft.Bot.Connector.dll
+C:\caap\dotnetsheff\cards-genericnative\CardsDemoBot\bin\Microsoft.IdentityModel.Protocol.Extensions.dll
+C:\caap\dotnetsheff\cards-genericnative\CardsDemoBot\bin\Microsoft.Rest.ClientRuntime.dll
+C:\caap\dotnetsheff\cards-genericnative\CardsDemoBot\bin\Microsoft.WindowsAzure.Configuration.dll
+C:\caap\dotnetsheff\cards-genericnative\CardsDemoBot\bin\Newtonsoft.Json.dll
+C:\caap\dotnetsheff\cards-genericnative\CardsDemoBot\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\caap\dotnetsheff\cards-genericnative\CardsDemoBot\bin\System.Net.Http.Formatting.dll
+C:\caap\dotnetsheff\cards-genericnative\CardsDemoBot\bin\System.Web.Http.dll
+C:\caap\dotnetsheff\cards-genericnative\CardsDemoBot\bin\System.Web.Http.WebHost.dll
+C:\caap\dotnetsheff\cards-genericnative\CardsDemoBot\bin\Autofac.xml
+C:\caap\dotnetsheff\cards-genericnative\CardsDemoBot\bin\Microsoft.Bot.Builder.xml
+C:\caap\dotnetsheff\cards-genericnative\CardsDemoBot\bin\Microsoft.Bot.Connector.xml
+C:\caap\dotnetsheff\cards-genericnative\CardsDemoBot\bin\Microsoft.IdentityModel.Protocol.Extensions.pdb
+C:\caap\dotnetsheff\cards-genericnative\CardsDemoBot\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
+C:\caap\dotnetsheff\cards-genericnative\CardsDemoBot\bin\Microsoft.Rest.ClientRuntime.xml
+C:\caap\dotnetsheff\cards-genericnative\CardsDemoBot\bin\Microsoft.WindowsAzure.Configuration.xml
+C:\caap\dotnetsheff\cards-genericnative\CardsDemoBot\bin\Newtonsoft.Json.xml
+C:\caap\dotnetsheff\cards-genericnative\CardsDemoBot\bin\System.IdentityModel.Tokens.Jwt.pdb
+C:\caap\dotnetsheff\cards-genericnative\CardsDemoBot\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\caap\dotnetsheff\cards-genericnative\CardsDemoBot\bin\System.Net.Http.Formatting.xml
+C:\caap\dotnetsheff\cards-genericnative\CardsDemoBot\bin\System.Web.Http.xml
+C:\caap\dotnetsheff\cards-genericnative\CardsDemoBot\bin\System.Web.Http.WebHost.xml
+C:\caap\dotnetsheff\cards-genericnative\CardsDemoBot\bin\ar\Microsoft.Bot.Builder.resources.dll
+C:\caap\dotnetsheff\cards-genericnative\CardsDemoBot\bin\en\Microsoft.Bot.Builder.resources.dll
+C:\caap\dotnetsheff\cards-genericnative\CardsDemoBot\bin\es\Microsoft.Bot.Builder.resources.dll
+C:\caap\dotnetsheff\cards-genericnative\CardsDemoBot\bin\fa\Microsoft.Bot.Builder.resources.dll
+C:\caap\dotnetsheff\cards-genericnative\CardsDemoBot\bin\fr\Microsoft.Bot.Builder.resources.dll
+C:\caap\dotnetsheff\cards-genericnative\CardsDemoBot\bin\ja\Microsoft.Bot.Builder.resources.dll
+C:\caap\dotnetsheff\cards-genericnative\CardsDemoBot\bin\ru\Microsoft.Bot.Builder.resources.dll
+C:\caap\dotnetsheff\cards-genericnative\CardsDemoBot\bin\zh-hans\Microsoft.Bot.Builder.resources.dll
+C:\caap\dotnetsheff\cards-genericnative\CardsDemoBot\obj\Release\CardsDemoBot.csprojResolveAssemblyReference.cache
+C:\caap\dotnetsheff\cards-genericnative\CardsDemoBot\obj\Release\Bot Application1.dll
+C:\caap\dotnetsheff\cards-genericnative\CardsDemoBot\obj\Release\Bot Application1.pdb
